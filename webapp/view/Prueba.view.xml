@@ -1,0 +1,25 @@
+<mvc:View
+    controllerName="project1.controller.Prueba"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+                	<subHeader>
+                        <Toolbar>
+                            <ToolbarSpacer/>
+                            <Button text="Default" press="onPress" />
+                            <Button type="Reject" text="Reject" press="onPress" />
+                            <Button icon="sap-icon://action" type="Transparent" press="onPress" ariaLabelledBy="actionButtonLabel"/>
+                            <ToolbarSpacer/>
+                        </Toolbar>
+                    </subHeader>
+					<content />
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
