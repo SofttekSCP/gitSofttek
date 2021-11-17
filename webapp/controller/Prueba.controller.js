@@ -9,7 +9,7 @@ sap.ui.define([
 
 		return Controller.extend("project1.controller.Prueba", {
 			onInit: function () {
-
+                   console.log("weimarrrr");
 			}
 		});
 	});
